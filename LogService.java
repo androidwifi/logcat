@@ -35,7 +35,7 @@ import android.util.Log;
  * 2.如果有SDCard的话会将之前内存中的文件拷贝到SDCard中 3.如果没有SDCard，在安装目录下只保存当前在写日志
  * 4.SDcard的装载卸载动作会在步骤2,3中切换 5.SDcard中的日志文件只保存7天
  * 
- * @author Administrator
+ * @modifier: mitnick
  * 
  */
 public class LogService extends Service {
